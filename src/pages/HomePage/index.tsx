@@ -11,19 +11,19 @@ const HomePage: DefaultPageType = ({ navigation }) => {
             <View style={styles.buttonContainer}>
                 <Button
                     title="Ver Sobre"
-                    onPress={() => navigation.navigate('About')}
+                    onPress={() => navigation.navigate('Sobre nós')}
                 />
             </View>
             <View style={styles.buttonContainer}>
                 <Button
                     title="Cadastrar Vagas"
-                    onPress={() => navigation.navigate('CadastrarVagas')}
+                    onPress={() => navigation.navigate('Cadastrar vagas')}
                 />
             </View>
             <View style={styles.buttonContainer}>
                 <Button
                     title="Aplicar Vagas"
-                    onPress={() => navigation.navigate('AplicarVagas')}
+                    onPress={() => navigation.navigate('Aplicar nas vagas')}
                 />
             </View>
         </View>

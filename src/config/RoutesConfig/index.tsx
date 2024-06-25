@@ -12,9 +12,9 @@ const ProtectedRoutes = () => {
         <NavigationContainer>
             <Stack.Navigator>
                 <Stack.Screen name="Home" component={HomePage} />
-                <Stack.Screen name="About" component={AboutPage} />
-                <Stack.Screen name="CadastrarVagas" component={CadastrarVagasPage} />
-                <Stack.Screen name="AplicarVagas" component={AplicarVagasPage} />
+                <Stack.Screen name="Sobre nós" component={AboutPage} />
+                <Stack.Screen name="Cadastrar vagas" component={CadastrarVagasPage} />
+                <Stack.Screen name="Aplicar nas vagas" component={AplicarVagasPage} />
             </Stack.Navigator>
         </NavigationContainer>
     )
